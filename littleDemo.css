@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 35%;
+}
+
+h1{
+    padding: 1rem 2rem;
+    background-color: rgb(94, 92, 93);
+    color: wheat;
+    border-radius: 1rem;
+}
+button{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+}
+button:hover{
+    background : rgb(229, 226, 226);
+}
